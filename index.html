@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        port;folio
+    </title>
+    <style>
+        button {
+            color: chartreuse;
+            background-color: cornflowerblue;
+            font-size: 20px;
+            padding: 10px 24px;
+            margin: auto;
+            transition-duration: 0.4s;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        button:hover {
+            background-color: cyan;
+
+        }
+
+        button:active {
+            background-color: crimson;
+        }
+
+        body {
+            background-image: url("images/back.jpg");
+            background-size: cover;
+            /* background-attachment: fixed; */
+        }
+
+        #mySidenav a {
+            position: absolute;
+            left: -115px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+            left: 0;
+        }
+
+        #insta {
+            top: 110px;
+            background-color: rgb(122, 228, 255);
+        }
+
+        #linkedIn {
+            top: 170px;
+            background-color: #2196F3;
+        }
+
+        #github {
+            top: 230px;
+            background-color: #000000;
+        }
+
+        #logo {
+            height: 20px;
+            width: 20px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        p{
+            /* margin-left: 70px; */
+            padding: 5px;
+            font-size: 18px;
+           text-align: center;
+        }
+        .active{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="buttons">
+        <nav>
+            <a href="./index.html"><button class="active">Home</button></a>
+            <a href="./about.html"><button>About Me</button></a>
+            <a href="./education.html"><button>Education</button></a>
+            <a href="./location.html"><button>Location</button></a>
+            <a href="./resume.pdf"><button>Resume</button></a>
+            <a href="./projects.html"><button>Projects</button></a>
+            <a href="./semester.html"><button>Semester Details</button></a>
+            <a href="./aboutHtml.html"><button>About HTML</button></a>
+        </nav>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="https://www.linkedin.com/in/vaibhav-jain18/" id="linkedIn" target="_blank"><img
+                src="logos/linkedIn.png" id="logo">linkedIn</a>
+        <a href="https://www.instagram.com/vaibhav_jain.py/" id="insta" target="_blank"><img src="logos/insta.jpg"
+                id="logo">Instagram</a>
+        <a href="https://github.com/vaibhav-jain18" id="github" target="_blank"><img src="logos/gitHub.png"
+                id="logo">Github</a>
+    </div>
+
+    <div >
+        <h1 align=center >I am Vaibhav Jain</h1>
+        <img src="./images/me.jpg" style="width:250px;border: solid 3px  ; border-radius: 50%;"
+            class="center">
+            <br>
+        <p class="center" style="width: 500px;">I am a student at <a href="https://www.iiitkota.ac.in/" target="_blank">IIIT
+                Kota</a>,
+
+            I am doing my B.Tech(Bachelor of Technology) in Computer Science and Engineering.
+
+        </p>
+
+        <div>
+            <h1 align=center>Education</h1>
+            <table border="1" align=center>
+                <tr>
+                    <td style="font-size: large;">
+                        <a href="https://www.iiitkota.ac.in">
+                            <h2> IIIT Kota </h2>
+                        </a>
+
+                    </td>
+                    <td> B.Tech (Computer Science and Engineering) I year. (2019-present)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.navodaya.gov.in/nvs/nvs-school/MUZAFFARNAGAR/en/home/">
+                            <h2> Jawahar Navodaya Vidyalaya, Muzaffarnagar </h2>
+                        </a>
+
+
+
+                    </td>
+                    <td>
+                        <table border="0">
+                            <tr>
+                                <td>
+                                    Senior Secondary , PCM + Computer Science (CBSE Board,2018-19) 96%
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    Secondary ,&nbsp; Sciences (CBSE Board, 2016-17) CGPA 10
+                                </td>
+
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="projects">
+            <h1 align=center>Projects</h1>
+            <table border="0" align=center cellspacing="0" cellpadding="20">
+                <tr>
+                    <td width="20%">
+                        <img src="./images/arduino.jpg" width="150">
+                    </td>
+                    <td>
+                        <h2>Joystick Driven Car</h2>
+                        A Joystick driven car using Arduino and Accelerometer <br>
+                        Guide: Dr. Amit Kumar
+
+
+
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td width="20%">
+                        <img src="./images/crowd.jpeg" width="150">
+                    </td>
+                    <td>
+                        <h2>Crowd Detection using Image processing and Machine learning</h2>
+                        Smart India Hackathon Project
+                    </td>
+                </tr>
+                <tr>
+                    <td width="20%">
+                        <img src="./images/dsp.jpg" width="150">
+                    </td>
+                    <td>
+                        <h2>Digital Signal Processing</h2>
+                        Independent Project 2nd Semester
+                    </td>
+                </tr>
+            </table>
+        </div>
+</body>
+
+</html>
