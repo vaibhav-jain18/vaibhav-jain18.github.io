@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Projects
+    </title>
+    <style>
+        button{
+            color:chartreuse;
+            background-color: cornflowerblue;
+            font-size: 20px;
+            padding: 10px 24px;
+            margin: auto;
+            transition-duration: 0.4s;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) inset, 0 6px 20px 0 rgba(0,0,0,0.19);
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: cyan;
+
+        }
+        button:active{
+            background-color: crimson;
+        }
+
+        body{
+            background-image: url("images/b.jpg");
+            background-size: cover;
+        }
+        .active{
+            background-color: darkblue;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="buttons">
+    <nav>
+        <a href="./index.html"><button>Home</button></a>
+        <a href="./about.html"><button  >About Me</button></a>
+        <a href="./education.html"><button >Education</button></a>
+        <a href="./location.html"><button >Location</button></a>
+        <a href="./resume.pdf"><button >Resume</button></a>
+        <a href="./projects.html"><button class="active">Projects</button></a>
+        <a href="./semester.html"><button >Semester Details</button></a>
+        <a href="./aboutHtml.html"><button>About HTML</button></a>
+    </nav>
+    </div>
+
+    <div id="projects">
+        <h1 align=center>Projects</h1>
+        <table border="0" align=center cellspacing="0" cellpadding="20" >
+            <tr>
+                <td width="20%">
+                    <img src="./images/arduino.jpg" width="150">
+                </td>
+                <td>
+                    <h2>Joystick Driven Car</h2>
+                    A Joystick driven car using Arduino and Accelerometer <br>
+                    Guide: Dr. Amit Kumar
+
+
+                    
+
+                </td>
+                
+            </tr>
+            <tr>
+                <td width="20%">
+                    <img src="./images/crowd.jpeg" width="150">
+                </td>
+                <td>
+                    <h2>Crowd Detection using Image processing and Machine learning</h2>
+                    Smart India Hackathon Project
+                </td>
+            </tr>
+            <tr>
+                <td width="20%">
+                    <img src="./images/dsp.jpg" width="150">
+                </td>
+                <td>
+                    <h2>Digital Signal Processing</h2>
+                    Independent Project 2nd Semester
+                </td>
+            </tr>
+        </table>
+    </div>
+  
+</body>
+</html>

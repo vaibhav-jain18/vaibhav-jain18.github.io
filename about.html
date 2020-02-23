@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        About Me
+    </title>
+    <style>
+        button{
+            color:chartreuse;
+            background-color: cornflowerblue;
+            font-size: 20px;
+            padding: 10px 24px;
+            margin: auto;
+            transition-duration: 0.4s;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) inset, 0 6px 20px 0 rgba(0,0,0,0.19);
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: cyan;
+
+        }
+        p{
+            /* margin-left: 70px; */
+            padding: 5px;
+            font-size: 18px;
+        }
+        button:active{
+            background-color: crimson;
+        }
+        body{
+            background-image: url('images/amer.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .active{
+            background-color: darkblue;
+        }
+        #mySidenav a {
+        position: absolute;
+        left: -115px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        }
+
+        #mySidenav a:hover {
+        left: 0;
+        }
+
+        #insta {
+        top: 110px;
+        background-color: rgb(122, 228, 255);
+        }
+
+        #linkedIn {
+        top: 170px;
+        background-color: #2196F3;
+        }
+
+        #github {
+        top: 230px;
+        background-color: #000000;
+        }
+        #logo {
+        height: 20px;
+        width: 20px;
+        }
+    </style>
+</head>
+<body >
+    <div id="buttons">
+    <nav>
+        <a href="./index.html"><button>Home</button></a>
+        <a href="./about.html"><button  class="active">About Me</button></a>
+        <a href="./education.html"><button >Education</button></a>
+        <a href="./location.html"><button >Location</button></a>
+        <a href="./resume.pdf"><button >Resume</button></a>
+        <a href="./projects.html"><button >Projects</button></a>
+        <a href="./semester.html"><button >Semester Details</button></a>
+        <a href="./aboutHtml.html"><button>About HTML</button></a>
+    </nav>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="https://www.linkedin.com/in/vaibhav-jain18/" id="linkedIn" target="_blank"><img src="logos/linkedIn.png"
+                id="logo">linkedIn</a>
+        <a href="https://www.instagram.com/vaibhav_jain.py/" id="insta" target="_blank"><img src="logos/insta.jpg" id="logo">Instagram</a>
+        <a href="https://github.com/vaibhav-jain18" id="github" target="_blank"><img src="logos/gitHub.png" id="logo">Github</a>
+    </div>
+
+    <div style="margin-left:150px ;">
+        <h1 align=center style="margin-left:-150px">Vaibhav Jain</h1>
+        <img src="./images/me.jpg" style="width:250px;margin-right: 120px;border: solid 3px  ; border-radius: 50%;" align=right>
+        <p align=left style="width: 500px;" >I am a student at <a href="https://www.iiitkota.ac.in/" target="_blank">IIIT Kota</a>,
+            
+            I am doing my B.Tech(Bachelor of Technology) in Computer Science and Engineering.
+
+        </p>
+        <!-- <img src="./images/me.jpg" style="width:280px;" align="right"> -->
+        <p align= left style="width: 500px;">I am an enthusiastic learner. I like to learn new things.
+            In my free time I like to write something on <a href="https://www.instagram.com/twoo_labyrinth/" target="_blank">my instagram page</a>
+            Hi there, I am competitive programmer enthusiast and giving try to web-designing these days 😊
+            I am really working too hard in copmetitive Programming world and i enjoy it a lot.
+
+
+        </p>
+        <p align=left>
+            <a href="mailto:2019kucp1088@iiitkota.ac.in" target="_blank">Email</a> &nbsp/&nbsp
+            <a href="./VaibhavResume.pdf" target="_blank">Resume</a> &nbsp/&nbsp
+            <a href="https://www.github.com/vaibhav-jain18" target="_blank">GitHub</a> &nbsp/&nbsp
+            <a href="https://www.linkedin.com/in/vaibhav-jain18" target="_blank"> LinkedIn </a> &nbsp/&nbsp
+            <a href="https://twitter.com/vaibhavjain1808" target="_blank">Twitter</a> &nbsp/&nbsp
+            <a href="https://www.facebook.com/vaibhavjain000" target="_blank">Facebook</a> &nbsp/&nbsp
+            <a href="https://www.instagram.com/vaibhav_jain.py/" target="_blank">Instagram</a>&nbsp/&nbsp
+            <a href="https://api.whatsapp.com/send?phone=+919897861234" target="_blank">Whatsapp</a>
+
+          </p>
+    </div>
+    
+</body>
+</html>
